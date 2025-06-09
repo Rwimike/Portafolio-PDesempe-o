@@ -312,7 +312,7 @@ footer {
     background: rgba(7, 113, 212, 0.253);
     border-top: 2px solid var(--mainback);
     font-size: 0.7rem;
-    color: #07aa94;
+    color: var(--back2);
 }
 
 .social-icons {
@@ -323,7 +323,7 @@ footer {
 }
 
 .social-icon {
-    color: #07aa94;
+    color: var(--back2);
     font-size: 1.5rem;
     transition: all 0.3s ease;
 }
@@ -360,7 +360,7 @@ footer {
     .sidebar {
         max-width: 100%;
         border-right: none;
-        border-bottom: 3px solid #00c3ff;
+        border-bottom: 3px solid var(--mainback);
     }
     
     .contenedor {
